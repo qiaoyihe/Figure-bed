@@ -131,7 +131,8 @@ body {
     }
 
     .timeline ul li div {
-        width: calc(100vw - 91px);
+       width: 330px;
+       margin-bottom: 5px;
     }
 
     .timeline ul li:nth-of-type(even) > div {
