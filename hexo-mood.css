@@ -141,16 +141,27 @@ body {
 }
 
 @media screen and (max-width: 400px) {
-    body {
-        /*background: #8bfff4;*/
-    }
-
     .timeline ul li {
         margin-left: 0px;
     }
 
     .timeline ul li div {
        width: 300px;
+       margin-left:  -13px;
+       margin-bottom: 5px;
+    }
+
+    .timeline ul li:nth-of-type(even) > div {
+        left: 45px;
+    }
+}
+@media screen and (max-width: 370px) {
+    .timeline ul li {
+        margin-left: 0px;
+    }
+
+    .timeline ul li div {
+       width: 270px;
        margin-left:  -13px;
        margin-bottom: 5px;
     }
